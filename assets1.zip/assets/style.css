@@ -1,0 +1,148 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #6dafe6;
+}
+
+
+body {
+  width: 80%;
+  min-width: 900px;
+  margin: 0 auto;
+  border: black;
+  border-style: solid;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Comfortaa', cursive;
+  color: #da3b85;
+}
+
+p, input, li {
+  font-family: 'Kalam', cursive;
+  color: #201a1a;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgb(148, 82, 134);
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p, li {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+body > * {
+  background-color: rgb(236, 234, 71);
+  padding: 2%;
+}
+
+main, header, article, aside, footer, section {
+  background-color: rgb(236, 234, 71);
+  padding: 1%;
+}
+
+h1 {
+  flex: 5;
+  text-transform:uppercase ;
+  text-align: center;
+}
+
+
+
+nav {
+  height: 80px;
+  flex: 100%;
+  display: flex;
+  background-color: #6dafe6;
+  border: black;
+  border-style: solid;
+ 
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a, nav span {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(9, 73, 25);
+
+}
+
+
+main {
+  display: flex;
+}
+
+article, section {
+  flex: 2;
+  border: black;
+  border-style: solid;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%; 
+  border: black;
+  border-style: solid;
+}
+
+aside a {
+  display: block;
+  float: right;
+  width: 40%;
+}
+
+aside img {
+  max-width: 80%;
+}
+footer p{
+  font-size: 10px;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: 10px;
+  border: black;
+  border-style: solid;
+}
